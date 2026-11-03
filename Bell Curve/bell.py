@@ -31,6 +31,8 @@ def normal_distribution(x, avg, sigma):
 # the bell curve is symmetric so the mean is 0 in this case,
 # the standard deviation is 1, as the variance is 1, given by E[X^2] - (E[X])^2
 
+# after some testing, avg moves the curve left or right, 
+# while sigma changes the width of the curve, making it wider or narrower.
 y = normal_distribution(x, 0, 1)
 
 print(y)
